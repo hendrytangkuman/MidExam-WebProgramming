@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Student Management App</a>
+        <ul>
+            <li><a href="#home" class="">Home</a></li>
+            <li><a href="#about" class="">About</a></li>
+        </ul>
+    </nav>
+
+    <section class="home" id="home">
+        <header id="main-header">
+            <h1 class="title">Student Management App</h1>
+            <h2 class="sub-title">Form Add Students</h2>
+        </header>
+
+
+        
+        
+    <form>
+        <label>Student Id</label> <br>
+        <input type="number" name="nim" id="nim" required><br>
+        <label>Name</label><br>
+        <input type="text" name="nama" id="nama" required><br>
+        <select name="gender" id="gender"required>
+            <option value="" disabled selected hidden>Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        <select name="faculty" id="faculty"required>
+            <option value="" disabled selected hidden>Select Faculty</option>
+            <option value="FIK">FIK</option>
+            <option value="FEKON">FEKON</option>
+        </select><br>
+        <select name="programStudy" id="programStudy"required>
+            <option value="" disabled selected hidden>Select Faculty</option>
+            <option value="SI" class="1">SI</option>
+            <option value="TI" class="1">TI</option>
+            <option value="Accounting">Accounting</option>
+            <option value="Management">Management</option>
+        </select><br>
+      <input type="submit" value="Add mahasiswa">
+      <input type="reset" value="Reset">
+    </form>
+
+
+    <h2 id="listStudents">List of Students</h2>
+    <div id="search">
+    <label id="header2">Search</label>
+    <ul id="students">
+        <input type="text" id="search" >
+      <li class="list-item">Tanos, Veron 105019192020 Male FIK SI<a href="#students" class="delete"> Delete</a></li>
+      <li class="list-item">Rainer Cristian 105011928282 Male FIK TI<a href="#students" class="delete"> Delete</a></li>
+      <li class="list-item">Kalangi, Juliando 105011918272 Male FIK SI<a href="#students" class="delete"> Delete</a></li>
+    </ul>
+    </div>
+    </section>
+        
+
+    <section class="about" id="about">
+        <h1>About</h1>
+        <p>Student Management MiniApp</p><br>
+        <p>Simple Vanilla Javascript Application for Managing Students</p>
+    </section>
+
+
+  <footer id="footer">
+    <hr>
+    <p>Copyright 2021</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

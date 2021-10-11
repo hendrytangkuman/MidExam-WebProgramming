@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+}
+
+.logo{
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar{
+    
+    padding-top: 5px;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+.navbar ul{
+    width: auto;
+    margin-top: 8px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.navbar ul li a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+   
+}
+
+.home #main-header{
+    color: white;
+}
+
+header{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+form{
+    background-color: lightgrey;
+    margin: 0% 5% 5% 5%;
+    border-radius: 10px;
+}
+
+form label{
+    margin-left: 25px;
+}
+
+form input[type=text], input[type=number], input[type=submit], input[type=reset], select{
+    width: 98%;
+    
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    
+}
+#listStudents{
+    margin-left: 70px;
+    color: white;
+}
+#search{
+    background-color: white;
+    margin: 0px 5% 25px 5%;
+    border-radius: 5px;
+}
+
+#search ul li{
+    width: 98%;
+    
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+#search ul li .delete{
+    text-decoration: none;
+    color: red;
+}
+
+.about{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
